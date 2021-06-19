@@ -23,7 +23,7 @@ after_success:
   - docker push vchen0504/multi-server
   - docker push vchen0504/multi-worker
 
-  deploy:
+deploy:
   provider: elasticbeanstalk
   region: 'us-east-1'
   app: 'multi-docker'
